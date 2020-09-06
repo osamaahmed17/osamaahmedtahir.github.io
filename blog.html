@@ -79,9 +79,12 @@
 	<!-- Blog Section end -->
 	<section class="blog-section">
 		<div class="nice-scroll">
-    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@osamaahmedtahir17","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
+			<div class="blog-grid-warp">
+				<div class="blog-grid-sizer"></div>
+				<div id="medium-widget"></div>
+    
 
+			</div>
 		</div>
 	</section>
 	<!-- Blog Section end -->
@@ -89,6 +92,8 @@
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@osamaahmedtahir17","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})</script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
