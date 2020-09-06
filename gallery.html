@@ -81,9 +81,7 @@
 		<div class="nice-scroll">
 			<div class="gallery-warp">
 				<div class="grid-sizer"></div>
-				
-				<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-				<iframe src="//lightwidget.com/widgets/68c03c06b9035b009e5d805b8ab44a24.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+				<div id="curator-feed-default-feed-layout"></div>
 			</div>
 		</div>
 	</section>
@@ -91,7 +89,14 @@
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
-
+	<script type="text/javascript">
+		/* curator-feed-default-feed-layout */
+		(function(){
+		var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+		i.src = "https://cdn.curator.io/published/c5fdb37b-a90c-495e-9c02-2559363db940.js";
+		e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+		})();
+		</script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
